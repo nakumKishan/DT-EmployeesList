@@ -10,8 +10,8 @@ export default class App extends React.Component{
     this.state = {
       todoInput1212: '',
       todos:[
-        {id:0,title:"Take out the trash",done:false},
-        {id:1,title:"Cook Diner",done:false},
+        {id:0,title:"KISHAN NAKUM",done:false},
+        {id:1,title:"KASHISH SOLANKI",done:false},
       ]
     }
   }  
@@ -36,7 +36,7 @@ render(){
   return (
     <View style={styles.container}>
       {statusbar}
-      <Header title2 = "Hello World" />
+      <Header title2 = "DT Employees" />
       <InputBar 
       title2 ="ADD"
       addNewTodo = {() => this.addNewTodo()}
